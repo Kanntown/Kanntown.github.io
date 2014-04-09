@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 * {
 	font-family: sans-serif; 
 	color: black;
@@ -21,11 +22,11 @@ nav ul li {
 	display: inline;
 	color: black;
 }
-nav a {
+nav ul li a {
 	width: 550px;
 	height: 35px;
 	font-weight: bold;
-	outline: solid;
+	outline: solid; 
 	padding-right: 1em;
 	padding-left: 1em; 
 	text-decoration: none;
@@ -37,6 +38,9 @@ body {
 	background-image: url("../img/fresh_snow.png");
 	background-repeat: repeat;
 }
+#phone a {
+	text-decoration: none;
+}
 #body {
 	margin: 40px;
 	font-family: sans-serif;
@@ -45,8 +49,9 @@ span {
 	float: right;
 }
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	text-shadow: 1px 1px 1px #333333;
+	font-family: 'Open Sans', sans-serif;
 }
 h2 {
 	border-bottom: solid black 5px;

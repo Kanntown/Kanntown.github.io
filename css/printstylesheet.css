@@ -4,14 +4,12 @@
 	background: transparent;
 	color: #000;
 	font-family: Times, serif;
+	margin: 1px;
 }
-@page {
-	margin: .5cm;
-}	
+
 h1 {
-	font-size: 24pt;
-	font-family: 'Cinzel', serif; 
-	font-weight: 400;
+	font-size: 30pt;
+	font-family: Times, serif;
 }
 nav {
 	display: none;
@@ -22,7 +20,9 @@ h2 {
 #body {
 	font-size: 12pt;
 }
-
+span {
+	float: none;
+}
 
 
 
