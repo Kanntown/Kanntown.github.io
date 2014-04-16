@@ -1,3 +1,3 @@
 READ ME
 
-Kristi Townsend's resume. 
+Kristi Townsend's website. 
