@@ -11,7 +11,10 @@
 	color: #00FFFF;
 	text-decoration: none;
 }
-nav{
+nav {
+	display: none;
+}
+/* nav{
 	font-family: sans-serif;
 }
 nav ul {
@@ -37,7 +40,7 @@ nav a:hover {
 body {
 	background-image: url("../img/fresh_snow.png");
 	background-repeat: repeat;
-}
+} */
 #phone a {
 	text-decoration: none;
 }
