@@ -1,12 +1,14 @@
 body {
 	font-size: 16px;
-	max-width: 960px;
 	margin: 1em;
 	background: black;
 	color: white;
+	font-family: sans-serif;
 }
-#center {
+
+#container {
 	margin: 0 auto;
+	max-width: 960px;
 }
 header {
 	background-image: url("../img/congruent_outline.png");
@@ -35,7 +37,7 @@ nav ul li {
 	position: relative;
 	border: 1px solid white;
 	padding: 5px;
-	width: 100px;
+	width: 115px;
 	text-align: center;
 	background-color: black;
 }
@@ -55,7 +57,7 @@ nav ul ul {
 }
 nav ul li ul li {
 	white-space: nowrap;
-	width: 100px;
+	width: 115px;
 	display: block;
 }
 nav ul li:hover ul {
@@ -69,6 +71,7 @@ section header {
 article img {
 	margin-top: 1em;
 	border: 3px solid white;
+	max-width: 100%;
 }
 #self img {
 	margin-top: 1em;
@@ -82,17 +85,26 @@ section article img {
 	margin: auto;
 	margin-bottom: 1em;
 }
-#photo section article img:hover {
-	color: #00ccff;
+#professional {
+	float: left;
 }
-
-
-#kristi {
-	
-
+#personal {
+	float: right;
+}
+#professional, #personal {
+	opacity: 0.8;
+}
+#professional:hover, #personal:hover {
+	opacity: 1;
 }
 section p {
-	
+	padding-bottom: 1em;
+}
+section article p {
+	width: 700px;
+	padding-left: 8em;
+	padding-bottom: 2.5em;
+	text-align: center;
 
 
 }
