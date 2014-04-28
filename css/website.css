@@ -29,16 +29,17 @@ nav ul li {
 	display: inline-block;
 	float: left;
 	position: relative;
+	border: 1px solid white;
 	padding: 5px;
+	width: 100px;
+	text-align: center;
 }
 nav ul li a {
 	color: white;
 	text-decoration: none;
 }
-nav ul a:hover {
-	color: #fff;
-	background: #d00;
-	text-decoration: underline;
+nav ul li:hover {
+	background-color: #d00;
 }
 nav ul ul {
 	padding: 0;
@@ -53,6 +54,7 @@ nav ul li ul li {
 }
 nav ul li:hover ul {
 	left: 0;
+	padding-top: 5px;
 }
 section header {
 	border: none;
@@ -67,7 +69,10 @@ section article img {
 	margin: auto;
 	margin-bottom: 1em;
 }
+#kristi {
+	
 
+}
 section p {
 	
 
@@ -94,9 +99,12 @@ footer ul {
 	padding: 0;
 }
 footer ul li {
-	display: inline;
+	list-style: none;
 }
 footer ul li a {
 	color: white;
 	text-decoration: none;
+}
+footer ul li a:hover {
+	color: blue;
 }
