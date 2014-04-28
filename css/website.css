@@ -62,9 +62,7 @@ nav ul li:hover ul {
 section header {
 	border: none;
 }
-section header h2 {
-	background-color: black;
-}
+
 article img {
 	margin-top: 1em;
 	border: 5px solid white;
