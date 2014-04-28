@@ -5,7 +5,9 @@ body {
 	background: black;
 	color: white;
 }
-
+#center {
+	margin: 0 auto;
+}
 header {
 	background-image: url("../img/congruent_outline.png");
 	background-repeat: repeat;
@@ -40,9 +42,10 @@ nav ul li {
 nav ul li a {
 	color: white;
 	text-decoration: none;
+	display: block;
 }
 nav ul li:hover {
-	background-color: #d00;
+	background-color: #00ccff;
 }
 nav ul ul {
 	padding: 0;
@@ -65,13 +68,25 @@ section header {
 
 article img {
 	margin-top: 1em;
-	border: 5px solid white;
+	border: 3px solid white;
+}
+#self img {
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	border: 3px solid white;
+	float: left;
 }
 section article img {
 	display: block;
 	margin: auto;
 	margin-bottom: 1em;
 }
+#photo section article img:hover {
+	color: #00ccff;
+}
+
+
 #kristi {
 	
 
@@ -81,6 +96,8 @@ section p {
 
 
 }
+
+
 p span {
 	float: right;
 }
@@ -92,6 +109,7 @@ p span {
 
 
 #footer {
+	clear: both;
 	text-align: center;
 	position: relative;
 	padding: 1em;
@@ -111,5 +129,5 @@ footer ul li a {
 	text-decoration: none;
 }
 footer ul li a:hover {
-	color: blue;
+	color: #00ccff;
 }
