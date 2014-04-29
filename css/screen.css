@@ -43,10 +43,24 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
 
+/*
+header nav ul li {
+	display: inline;
+	list-style-type: none;
 }
 
+header nav ul li a {
+	display: block;
+}
+li {
+	display: list-item;
+}
+*/
+
+
+}
 @media (max-width: 400) {
 	
 nav ul li {
