@@ -4,12 +4,15 @@
 	background: transparent;
 	color: #000;
 	font-family: Times, serif;
-	margin: 1px;
+	margin: 1pt;
 }
 
-h1 {
+header h1 {
+	text-align: center;
+	color: #000;
 	font-size: 30pt;
 	font-family: Times, serif;
+	padding-bottom: 5pt;
 }
 nav {
 	display: none;
