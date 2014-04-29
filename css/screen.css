@@ -30,7 +30,7 @@
 
 
 #photocontainer {
-	width: 400px;
+	width: 500px;
 	margin: 0 auto;
 }	
 
@@ -65,26 +65,24 @@ nav ul li {
 	display: block;
 	float: none;
 	position: static;
-	width: 75%;
+	width: 80%;
 }
 nav ul ul {
 	display: none;
 }
+
+#photocontainer {
+	max-width: 100%;
+	margin: 0 auto;
+} 
 
 section article p {
 	max-width: 100%;
 	padding-left: 0;
 }
 
-}
-@media (max-width: 400) {
-	
-nav ul li {
-	list-style: none;
-}
-span p {
+section p span {
 	float: none;
 }
 
-
-}
+} 

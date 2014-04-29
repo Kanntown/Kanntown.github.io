@@ -129,7 +129,8 @@ p span {
 
 
 
-#footer {
+
+footer {
 	font-family: 'Fjalla One', 'sans-serif';
 	clear: both;
 	text-align: center;
@@ -138,8 +139,6 @@ p span {
 	border: 3px solid white;
 	background-image: url("../img/congruent_outline.png");
 	background-repeat: repeat;
-}
-footer {
 	color: #00ccff;
 }
 footer ul {
